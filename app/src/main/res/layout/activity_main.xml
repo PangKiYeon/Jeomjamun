@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="191dp"
+        android:layout_height="66dp"
+        android:autoSizeTextType="uniform"
+        android:text="점자문(聞)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="157dp"
+        android:layout_height="54dp"
+        android:autoSizeTextType="uniform"
+        android:text="⠨⠎⠢⠨⠑⠛"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="319dp"
+        android:layout_height="86dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="시각을 넘어 음성으로 닿는 점자문,\n소통과 공감의 범위를 넓히다"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <Button
+        android:id="@+id/mainservice"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/drawable_braille"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="한국어 음성으로 번역하기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/trainservice"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/drawable_study"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="영한 점자 학습하기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/quizservice"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/drawable_quiz"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="점자 낱말 퀴즈 풀기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <Button
+        android:id="@+id/searchservice"
+        android:layout_width="167dp"
+        android:layout_height="154dp"
+        android:background="@drawable/button_shape"
+        android:drawableTop="@drawable/drawable_research"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="국내 점자 도서관 정보"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

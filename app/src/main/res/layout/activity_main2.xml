@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context = ".MainActivity">
+
+    <Button
+        android:id="@+id/info1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="점자 이미지"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"/>
+
+    <Button
+        android:id="@+id/info2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="한글 텍스트"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/info3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="465dp"
+        android:gravity="center"
+        android:text="한국어 음성"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"/>
+
+    <ImageButton
+        android:id="@+id/voice"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="533dp"
+        android:layout_centerHorizontal="true"
+        android:padding="0dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="한국어 음성 버튼"
+        android:src="@drawable/bell"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/translate_pic"
+        android:layout_width="148dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="220dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/drawable_translate"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:text="번역"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/select"
+        android:layout_width="129dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="115dp"
+        android:background="@android:color/transparent"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        android:src="@drawable/uploadimg"
+        android:text="이미지 선택"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 선택"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="210dp"
+        android:layout_centerInParent="false"
+        android:background="@android:color/transparent"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/soundtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소리로 듣기"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="620dp"
+        android:layout_centerInParent="false"
+        android:background="@android:color/transparent"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

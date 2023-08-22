@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity5">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/library_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="도서관 이름을 검색하세요" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/library_listView"
+        android:dividerHeight="1.5dp"
+        android:divider="#D2E1FF"
+        android:listSelector="#A6C3FD"/>
+
+</LinearLayout>

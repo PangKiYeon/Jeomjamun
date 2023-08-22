@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="eresId">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+        <item>@drawable/p</item>
+        <item>@drawable/q</item>
+        <item>@drawable/r</item>
+        <item>@drawable/s</item>
+        <item>@drawable/t</item>
+        <item>@drawable/u</item>
+        <item>@drawable/v</item>
+        <item>@drawable/w</item>
+        <item>@drawable/x</item>
+        <item>@drawable/y</item>
+        <item>@drawable/z</item>
+    </integer-array>
+    <string-array name="categories">
+        <item>영어</item>
+        <item>한글</item>
+        <item>숫자</item>
+        <!-- 추가적인 항목들 -->
+    </string-array>
+    <string-array name="jamo">
+        <item>자음</item>
+        <item>모음</item>
+        <!-- 추가적인 항목들 -->
+    </string-array>
+
+    <string-array name="econtent">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+    <string-array name="ncontent">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>수표</item>
+        <!-- Add all number items from 0 to 9 -->
+    </string-array>
+    <string-array name="mocontent">
+        <item>ㅏ</item>
+        <item>ㅑ</item>
+        <item>ㅓ</item>
+        <item>ㅕ</item>
+        <item>ㅗ</item>
+        <item>ㅛ</item>
+        <item>ㅜ</item>
+        <item>ㅠ</item>
+        <item>ㅡ</item>
+        <item>ㅣ</item>
+        <item>ㅐ</item>
+        <item>ㅔ</item>
+        <item>ㅒ</item>
+        <item>ㅖ</item>
+        <item>ㅘ</item>
+        <item>ㅙ</item>
+        <item>ㅚ</item>
+        <item>ㅝ</item>
+        <item>ㅞ</item>
+        <item>ㅟ</item>
+        <item>ㅢ</item>
+        <item>참고</item>
+        <!-- Add all Korean vowel items from ㅏ to ㅛ -->
+    </string-array>
+
+    <string-array name="jacontent">
+        <item>ㄱ</item>
+        <item>ㄴ</item>
+        <item>ㄷ</item>
+        <item>ㄹ</item>
+        <item>ㅁ</item>
+        <item>ㅂ</item>
+        <item>ㅅ</item>
+        <item>ㅇ</item>
+        <item>ㅈ</item>
+        <item>ㅊ</item>
+        <item>ㅋ</item>
+        <item>ㅌ</item>
+        <item>ㅍ</item>
+        <item>ㅎ</item>
+        <item>참고</item>
+        <!-- Add all Korean consonant items from ㄱ to ㅎ -->
+    </string-array>
+</resources>

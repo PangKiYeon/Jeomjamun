@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="자음은 초성과 종성의 모양이 다르지만, 유사성을 띠고 있다.종성의 모양은 초성의 좌우를 뒤집어 만들거나, 모양을 아래쪽으로 한 칸 내려서 만든다.자음 점자는 두 줄 이하만을 사용한다.초성 ㅇ은 원칙적으로 따로 쓰지 않으며, 따로 밝혀 적고자 할 때에만 6점 점자 (1-2-4-5)점를 사용한다.된소리로 된 초성 'ㄲ,ㄸ,ㅃ,ㅆ,ㅉ'는 초성 'ㄱ,ㄷ,ㅂ,ㅅ,ㅈ' 앞에 된소리표 6점 점자 (6)점를 붙여 적는다.받침 'ㄲ'은 (1)점 점자, 받침 'ㅆ'은 (3-4)점으로 적고, 나머지 겹받침은 해당하는 낱자를 순서대로 적는다."
+        android:textSize="15dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1-2-4-5점"
+        android:textSize="10dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/one" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="6점"
+        android:textSize="10dp"></TextView>
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/two" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1점"
+        android:textSize="10dp"></TextView>
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/three" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3-4점"
+        android:textSize="10dp"></TextView>
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/four" />
+
+
+
+
+
+
+
+</LinearLayout>

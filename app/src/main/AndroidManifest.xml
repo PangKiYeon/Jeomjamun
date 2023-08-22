@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:usesCleartextTraffic="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Jeomjamoon"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCd52qtEx7XjesWjWmX3ynu0P5wArTtqMk" />
+
+        <activity
+            android:name=".aa"
+            android:exported="false" />
+        <activity
+            android:name=".tipss"
+            android:exported="false" />
+        <activity
+            android:name=".tips"
+            android:exported="false" />
+        <activity
+            android:name=".mo21"
+            android:exported="false" />
+        <activity
+            android:name=".mo20"
+            android:exported="false" />
+        <activity
+            android:name=".mo19"
+            android:exported="false" />
+        <activity
+            android:name=".mo18"
+            android:exported="false" />
+        <activity
+            android:name=".mo17"
+            android:exported="false" />
+        <activity
+            android:name=".mo16"
+            android:exported="false" />
+        <activity
+            android:name=".mo15"
+            android:exported="false" />
+        <activity
+            android:name=".mo14"
+            android:exported="false" />
+        <activity
+            android:name=".mo13"
+            android:exported="false" />
+        <activity
+            android:name=".mo12"
+            android:exported="false" />
+        <activity
+            android:name=".mo11"
+            android:exported="false" />
+        <activity
+            android:name=".mo10"
+            android:exported="false" />
+        <activity
+            android:name=".mo9"
+            android:exported="false" />
+        <activity
+            android:name=".mo8"
+            android:exported="false" />
+        <activity
+            android:name=".mo7"
+            android:exported="false" />
+        <activity
+            android:name=".mo6"
+            android:exported="false" />
+        <activity
+            android:name=".mo5"
+            android:exported="false" />
+        <activity
+            android:name=".mo4"
+            android:exported="false" />
+        <activity
+            android:name=".mo3"
+            android:exported="false" />
+        <activity
+            android:name=".mo2"
+            android:exported="false" />
+        <activity
+            android:name=".mo1"
+            android:exported="false" />
+        <activity
+            android:name=".j12"
+            android:exported="false" />
+        <activity
+            android:name=".j11"
+            android:exported="false" />
+        <activity
+            android:name=".j10"
+            android:exported="false" />
+        <activity
+            android:name=".j9"
+            android:exported="false" />
+        <activity
+            android:name=".j8"
+            android:exported="false" />
+        <activity
+            android:name=".j13"
+            android:exported="false" />
+        <activity
+            android:name=".j7"
+            android:exported="false" />
+        <activity
+            android:name=".j6"
+            android:exported="false" />
+        <activity
+            android:name=".j5"
+            android:exported="false" />
+        <activity
+            android:name=".j4"
+            android:exported="false" />
+        <activity
+            android:name=".j3"
+            android:exported="false" />
+        <activity
+            android:name=".j2"
+            android:exported="false" />
+        <activity
+            android:name=".j1"
+            android:exported="false" />
+        <activity
+            android:name=".j0"
+            android:exported="false" />
+        <activity
+            android:name=".Momain"
+            android:exported="false" />
+        <activity
+            android:name=".Jamain"
+            android:exported="false" />
+        <activity
+            android:name=".Hmain"
+            android:exported="false" />
+        <activity
+            android:name=".numbersign"
+            android:exported="false" />
+        <activity
+            android:name=".n9"
+            android:exported="false" />
+        <activity
+            android:name=".n8"
+            android:exported="false" />
+        <activity
+            android:name=".n7"
+            android:exported="false" />
+        <activity
+            android:name=".n6"
+            android:exported="false" />
+        <activity
+            android:name=".n5"
+            android:exported="false" />
+        <activity
+            android:name=".n4"
+            android:exported="false" />
+        <activity
+            android:name=".n3"
+            android:exported="false" />
+        <activity
+            android:name=".n2"
+            android:exported="false" />
+        <activity
+            android:name=".n1"
+            android:exported="false" />
+        <activity
+            android:name=".n0"
+            android:exported="false" />
+        <activity
+            android:name=".Nmain"
+            android:exported="false" />
+        <activity
+            android:name=".Emainn"
+            android:exported="false" />
+        <activity
+            android:name=".z"
+            android:exported="false" />
+        <activity
+            android:name=".y"
+            android:exported="false" />
+        <activity
+            android:name=".x"
+            android:exported="false" />
+        <activity
+            android:name=".w"
+            android:exported="false" />
+        <activity
+            android:name=".vv"
+            android:exported="false" />
+        <activity
+            android:name=".u"
+            android:exported="false" />
+        <activity
+            android:name=".t"
+            android:exported="false" />
+        <activity
+            android:name=".s"
+            android:exported="false" />
+        <activity
+            android:name=".r"
+            android:exported="false" />
+        <activity
+            android:name=".q"
+            android:exported="false" />
+        <activity
+            android:name=".p"
+            android:exported="false" />
+        <activity
+            android:name=".o"
+            android:exported="false" />
+        <activity
+            android:name=".n"
+            android:exported="false" />
+        <activity
+            android:name=".m"
+            android:exported="false" />
+        <activity
+            android:name=".l"
+            android:exported="false" />
+        <activity
+            android:name=".k"
+            android:exported="false" />
+        <activity
+            android:name=".j"
+            android:exported="false" />
+        <activity
+            android:name=".i"
+            android:exported="false" />
+        <activity
+            android:name=".h"
+            android:exported="false" />
+        <activity
+            android:name=".g"
+            android:exported="false" />
+        <activity
+            android:name=".f"
+            android:exported="false" />
+        <activity
+            android:name=".e"
+            android:exported="false" />
+        <activity
+            android:name=".d"
+            android:exported="false" />
+        <activity
+            android:name=".c"
+            android:exported="false" />
+        <activity
+            android:name=".b"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapsDetailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps_detail" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

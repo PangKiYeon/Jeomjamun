@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="모음 기호는 세 줄을 모두 사용하며, ㅏ와 ㅑ, ㅜ와 ㅠ 같은 글자들은 서로 대칭이다.모음 뒤에 '예'가, 또 'ㅑ, ㅘ, ㅜ, ㅞ' 다음에 '애'가 이어 나오는 경우 그 사이에 3-6점을 적어 이중모음으로 혼동하지않게 적는다.(예) 구애, 우애)다만, 중간에 행이 바뀌는 경우에는 적지 않아도 된다."
+        android:textSize="15dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3-6점"
+        android:textSize="10dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/sam"
+        />
+
+
+
+
+</LinearLayout>
