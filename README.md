@@ -1,5 +1,6 @@
 # Jeomjamun
 2023 Sungshin Women's University AI IT Competitive Exhibition
+우수상 수상
 
 ## 💻 프로젝트 소개
 영어점자를 한글로 번역해주는 점자번역프로그램입니다.
